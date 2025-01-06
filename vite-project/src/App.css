@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.restaurant {
+  background-color :aqua;
+  width : auto;
+  height: auto;
+  border-style: dashed;
+
+
+}
+
+.filterCategory {
+  width: space;
+  
+  
+}

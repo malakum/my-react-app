@@ -1,0 +1,47 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "react_database" as user "mala".
+CREATE TABLE
+CREATE TABLE
+INSERT 0 3
+INSERT 0 4
+ animal_id | animal_name | animal_legs 
+-----------+-------------+-------------
+         1 | cat         |           4
+         2 | hen         |           2
+         3 | dog         |           4
+(3 rows)
+
+ northcoder_id | northcoder | date_of_birth | northcoders_points | favourite_animal_id 
+---------------+------------+---------------+--------------------+---------------------
+             1 | Zara       | 1985-05-10    |                  0 |                   1
+             2 | Rayan      | 1992-06-20    |                  0 |                   2
+             3 | Steven     | 1970-10-12    |                  0 |                   3
+             4 | Joe        | 1990-08-05    |                  0 |                   1
+(4 rows)
+
+ northcoder_id | northcoder | date_of_birth | northcoders_points | favourite_animal_id | animal_id | animal_name | animal_legs 
+---------------+------------+---------------+--------------------+---------------------+-----------+-------------+-------------
+             1 | Zara       | 1985-05-10    |                  0 |                   1 |         1 | cat         |           4
+             2 | Rayan      | 1992-06-20    |                  0 |                   2 |         2 | hen         |           2
+             3 | Steven     | 1970-10-12    |                  0 |                   3 |         3 | dog         |           4
+             4 | Joe        | 1990-08-05    |                  0 |                   1 |         1 | cat         |           4
+(4 rows)
+
+CREATE TABLE
+CREATE TABLE
+INSERT 0 7
+INSERT 0 12
+CREATE TABLE
+CREATE TABLE
+                                          List of relations
+ Schema |        Name        | Type  | Owner | Persistence | Access method |    Size    | Description 
+--------+--------------------+-------+-------+-------------+---------------+------------+-------------
+ public | animals            | table | mala  | permanent   | heap          | 8192 bytes | 
+ public | books              | table | mala  | permanent   | heap          | 0 bytes    | 
+ public | genres             | table | mala  | permanent   | heap          | 0 bytes    | 
+ public | northcoders        | table | mala  | permanent   | heap          | 8192 bytes | 
+ public | northcoders_skills | table | mala  | permanent   | heap          | 8192 bytes | 
+ public | skills             | table | mala  | permanent   | heap          | 8192 bytes | 
+(6 rows)
+
